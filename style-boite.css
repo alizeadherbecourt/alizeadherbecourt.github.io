@@ -1,9 +1,26 @@
 .iconePortfolio {
     width: 13rem;
     height: auto;
-    padding: 2rem 10rem;
+    padding: 2rem 10rem 0.5rem;
     object-fit: contain;
     transition: 0.2s ease-in-out;
+}
+
+.divImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -3rem;
+}
+
+.divImage p {
+    visibility: hidden;
+    font-family: Grandstander-Medium;
+    font-size: 1.2rem;
+}
+
+.divImage:hover .description {
+    visibility: visible;
 }
 
 #icones {
