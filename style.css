@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Coloringkids;
+    src: url("/fonts/Coloringkids.ttf");
+}
+
+@font-face {
+    font-family: Comication;
+    src: url("/fonts/Comication.ttf");
+}
+
+@font-face {
+    font-family: Grandstander;
+    src: url("/fonts/Grandstander.otf");
+}
+
+@font-face {
+    font-family: Mrmen;
+    src: url("/fonts/Mrmen.ttf");
+}
+
+@font-face {
+    font-family: RustyHooks;
+    src: url("/fonts/RustyHooks.ttf");
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: bisque;
+    overflow-x: hidden;
+    /*background-image: url(/images/background.jpg);*/
+}
+
+header {
+    /*margin: 0 2rem;*/
+    display: flex;
+    flex-direction: column;
+}
+
+#presentation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgMadame {
+    margin-left: 6rem;
+    width: 14rem;
+    height: auto;
+}
+
+#textesPresentation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-right: 28rem;
+}
+
+p {
+    margin: 0;
+}
+
+.nom {
+    padding: 1.2rem;
+    background-color: #e573b6;
+    border-radius: 20px;
+    font-size: 5.3rem;
+    font-family: RustyHooks;
+    border: 9px double black;
+}
+
+#madamee {
+    margin-top: 7.5rem;
+    position: absolute;
+    transform: skew(-0.02turn, 4deg);
+}
+
+.madame {
+    font-family: Grandstander;
+    margin-left: 30.5rem;
+    text-align: center;
+    width: 45%;
+    padding: 0.4rem;
+    background-color: #ffd54f;
+    border-radius: 20px;
+    font-size: 2rem;
+    border: 3.5px dashed black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 3rem;
+}
+
+nav ul {
+    margin: auto 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    background-color: #81d4fa;
+    padding: 0.8rem 2.5rem;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+nav ul li {
+    font-size: 1.8rem;
+    font-family: Grandstander;
+    align-items: center;
+}
+
+.icones {
+    width: 1.6rem;
+    margin-right: 0.7rem;
+    height: auto;
+}
+
+#imgFleche {
+    width: 5rem;
+    height: auto;
+    display: none;
+}
+
+.typospeciale {
+    font-family: Mrmen;
+    font-size: 2.2rem;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: -1rem;
+    color: grey;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: Grandstander;
+}
+
+@media screen and (max-width: 1800px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    html {
+        font-size: 13.5px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    html {
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #imgMadame {
+        display: none;
+    }
+    html {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 10px;
+    }
+}
+
