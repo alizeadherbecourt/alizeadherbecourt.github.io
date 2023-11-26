@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: Grandstander-Medium;
+    src: url("/fonts/Grandstander-Medium.otf");
+}
+
+@font-face {
     font-family: Mrmen;
     src: url("/fonts/Mrmen.ttf");
 }
@@ -114,16 +119,20 @@ nav ul li {
     align-items: center;
 }
 
+nav li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
 .icones {
     width: 1.6rem;
     margin-right: 0.7rem;
     height: auto;
-}
-
-#imgFleche {
-    width: 5rem;
-    height: auto;
-    display: none;
 }
 
 .typospeciale {
@@ -139,6 +148,136 @@ nav ul li {
 h1 {
     font-size: 6rem;
     font-family: Grandstander;
+}
+
+figure {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+audio {
+    width: 40rem;
+}
+
+figcaption {
+    font-family: Grandstander-Medium;
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.iconePortfolio {
+    width: 13rem;
+    height: auto;
+    padding: 2rem 10rem;
+    object-fit: contain;
+    transition: 0.2s ease-in-out;
+}
+
+#icones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.iconePortfolio:hover {
+    filter: blur(4px);
+}
+
+#txtPortfolio {
+    font-family: Grandstander-Medium;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#portfolio {
+    padding-top: 3rem;
+    margin: 0 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#divLivre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divLivre img {
+    width: 40rem;
+    height: auto;
+    padding: 4rem 0;
+}
+
+#divLivre p {
+    font-family: Grandstander-Medium;
+    font-size: 1.1rem;
+    margin: 0 6rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+#divLivre p:first-of-type {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#divContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#divContact ul {
+    line-height: 4rem;
+}
+
+#divContact ul li {
+    font-family: Grandstander-Medium;
+    font-size: 1.5rem;
+}
+
+#divContact img {
+    width: 25rem;
+    height: auto;
+}
+
+#divAccueil {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 2rem;
+}
+
+#divAccueil p {
+    font-family: RustyHooks;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#divAccueil ul {
+    line-height: 3rem;
+    justify-content: start;
+    padding-left: 12rem;
+}
+
+#divAccueil ul li {
+    font-family: Grandstander-Medium;
+    font-size: 1.2rem;
+}
+
+main {
+    padding-bottom: 4rem;
 }
 
 @media screen and (max-width: 1800px) {
