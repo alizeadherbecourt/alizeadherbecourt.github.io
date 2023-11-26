@@ -1,0 +1,25 @@
+#divLivre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divLivre img {
+    width: 40rem;
+    height: auto;
+    padding: 4rem 0;
+}
+
+#divLivre p {
+    font-family: Grandstander-Medium;
+    font-size: 1.1rem;
+    margin: 0 6rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+#divLivre p:first-of-type {
+    font-size: 2rem;
+    text-decoration: underline;
+}

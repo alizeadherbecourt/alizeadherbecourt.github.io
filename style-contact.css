@@ -1,0 +1,21 @@
+#divContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#divContact ul {
+    line-height: 4rem;
+}
+
+#divContact ul li {
+    font-family: Grandstander-Medium;
+    font-size: 1.5rem;
+}
+
+#divContact img {
+    width: 25rem;
+    height: auto;
+}

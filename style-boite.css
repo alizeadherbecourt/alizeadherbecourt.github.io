@@ -1,0 +1,33 @@
+.iconePortfolio {
+    width: 13rem;
+    height: auto;
+    padding: 2rem 10rem;
+    object-fit: contain;
+    transition: 0.2s ease-in-out;
+}
+
+#icones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.iconePortfolio:hover {
+    filter: blur(4px);
+}
+
+#txtPortfolio {
+    font-family: Grandstander-Medium;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#portfolio {
+    padding-top: 3rem;
+    margin: 0 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

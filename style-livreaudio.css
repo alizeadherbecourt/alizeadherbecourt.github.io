@@ -1,0 +1,15 @@
+figure {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+audio {
+    width: 40rem;
+}
+
+figcaption {
+    font-family: Grandstander-Medium;
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
