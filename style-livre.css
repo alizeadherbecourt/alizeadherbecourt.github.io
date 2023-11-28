@@ -23,3 +23,33 @@
     font-size: 2rem;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 450px) {
+    #divLivre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #divLivre img {
+        width: 25rem;
+        height: auto;
+        padding: 2rem 0;
+    }
+    
+    #divLivre p {
+        font-family: Grandstander-Medium;
+        font-size: 1rem;
+        margin: 0 1rem;
+        text-align: justify;
+        line-height: 2rem;
+    }
+    
+    #divLivre p:first-of-type {
+        font-size: 1.6rem;
+        margin: 0 0;
+        text-decoration: underline;
+        padding-top: 4rem;
+    }
+}

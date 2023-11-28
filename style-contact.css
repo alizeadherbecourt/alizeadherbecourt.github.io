@@ -19,3 +19,28 @@
     width: 25rem;
     height: auto;
 }
+
+@media screen and (max-width: 450px) {
+    #divContact {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+    }
+    
+    #divContact ul {
+        line-height: 4rem;
+        padding-top: 1rem;
+    }
+    
+    #divContact ul li {
+        font-family: Grandstander-Medium;
+        font-size: 1.4rem;
+    }
+    
+    #divContact img {
+        width: 16rem;
+        height: auto;
+    }
+}

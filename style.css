@@ -153,7 +153,131 @@ main {
     padding-bottom: 4rem;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 13px;
+    }
+    
+    body {
+        background-color: bisque;
+        overflow-x: hidden;
+        /*background-image: url(/images/background.jpg);*/
+    }
+    
+    header {
+        /*margin: 0 2rem;*/
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #presentation {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #imgMadame {
+        display: none;
+        margin-left: 6rem;
+        width: 14rem;
+        height: auto;
+    }
+    
+    #textesPresentation {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        margin-right: 0rem;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    .nom {
+        padding: 1rem;
+        background-color: #e573b6;
+        border-radius: 20px;
+        font-size: 2.8rem;
+        font-family: RustyHooks;
+        border: 6px double black;
+    }
+    
+    #madamee {
+        margin-top: 7.5rem;
+        position: absolute;
+        transform: skew(-0.02turn, 4deg);
+    }
+    
+    .madame {
+        font-family: Grandstander;
+        margin-left: 12rem;
+        text-align: center;
+        width: 50%;
+        padding: 0.2rem;
+        background-color: #ffd54f;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        border: 2px dashed black;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        padding-top: 5rem;
+    }
+    
+    nav ul {
+        margin: auto 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        background-color: #81d4fa;
+        padding: 0.8rem 2.5rem;
+        border-radius: 25px;
+        border: 2.5px solid black;
+    }
+    
+    nav ul li {
+        font-size: 1.3rem;
+        font-family: Grandstander;
+        align-items: center;
+        width: 125px;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: black;
+        transition: 0.4s ease-in-out;
+    }
+    
+    nav li a:hover {
+        text-decoration: underline;
+    }
+    
+    .icones {
+        width: 1rem;
+        margin-right: 0.2rem;
+        height: auto;
+    }
+    
+    .typospeciale {
+        display: none;
+    }
+    
+    .underline {
+        text-decoration: underline;
+    }
+    
+    main {
+        padding-bottom: 4rem;
+    }
+}
+
+/*@media screen and (max-width: 1800px) {
     html {
         font-size: 14px;
     }
@@ -196,5 +320,5 @@ main {
     html {
         font-size: 10px;
     }
-}
+}*/
 

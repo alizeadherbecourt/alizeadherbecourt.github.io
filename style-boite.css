@@ -48,3 +48,58 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@media screen and (max-width: 450px) {
+    .iconePortfolio {
+        width: 8rem;
+        height: auto;
+        padding: 2rem 0rem 0.5rem;
+        object-fit: contain;
+        transition: 0.2s ease-in-out;
+    }
+    
+    .divImage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: -3rem;
+    }
+    
+    .divImage p {
+        visibility: hidden;
+        font-family: Grandstander-Medium;
+        font-size: 1.2rem;
+    }
+    
+    .divImage:hover, .divImage:focus, .divImage:active .description {
+        visibility: visible;
+    }
+
+    
+    #icones {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 2rem;
+        gap: 2rem;
+    }
+    
+    .iconePortfolio:hover {
+        filter: blur(4px);
+    }
+    
+    #txtPortfolio {
+        font-family: Grandstander-Medium;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    #portfolio {
+        padding-top: 3rem;
+        margin: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

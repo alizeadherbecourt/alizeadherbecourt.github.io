@@ -21,3 +21,31 @@
     font-family: Grandstander-Medium;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 450px) {
+    #divAccueil {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding-top: 2rem;
+    }
+    
+    #divAccueil p {
+        font-family: RustyHooks;
+        font-size: 1.5rem;
+        text-align: justify;
+        margin: 0 2rem;
+        line-height: 3rem;
+    }
+    
+    #divAccueil ul {
+        line-height: 3rem;
+        justify-content: start;
+        padding-left: 1.5rem;
+    }
+    
+    #divAccueil ul li {
+        font-family: Grandstander-Medium;
+        font-size: 1.15rem;
+    }
+}
